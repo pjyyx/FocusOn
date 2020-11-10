@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="BlueStart">#067CFF</color>
+    <color name="BlueCenter">#2F90FF</color>
+    <color name="BlueEnd">#5399FF</color>
+    <color name="LightGray">#DCDCDC</color>
+    <color name="DimGray">#696969</color>
+    <color name="DarkGray">#575561</color>
+    <color name="WhiteSmoke">#F5F5F5</color>
+    <color name="SmokeRedStart">#FB5A69</color>
+    <color name="SmokeRedCenter">#FC4C5D</color>
+    <color name="SmokeRedEnd">#FB5A69</color>
+    <color name="OrangeStart">#FF6800</color>
+    <color name="OrangeCenter">#FF8000</color>
+    <color name="OrangeEnd">#FF9700</color>
+
+</resources>

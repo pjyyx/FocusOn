@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_rank"
+        android:icon="@drawable/ranking"
+        android:title="@string/ranking"
+        android:textStyle="bold"/>
+
+    <item
+        android:id="@+id/navigation_achievement"
+        android:icon="@drawable/achievement_color"
+        android:title="@string/achievement"
+        android:textStyle="bold"/>
+
+    <item
+        android:id="@+id/navigation_main"
+        android:icon="@drawable/main"
+        android:title="@string/main"
+        android:textStyle="bold"/>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/setting"
+        android:title="@string/settings"
+        android:textStyle="bold"/>
+
+</menu>

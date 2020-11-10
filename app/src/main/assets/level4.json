@@ -1,0 +1,31 @@
+[
+  {
+    "name": "pants4",
+    "basepower": 4,
+    "level": 4,
+    "type": 2,
+    "image": "android.resource://comp5216.sydney.edu.au.focuson/drawable/pants4"
+  },
+  {
+    "name": "shoes4",
+    "basepower": 4,
+    "level": 4,
+    "type": 3,
+    "image": "android.resource://comp5216.sydney.edu.au.focuson/drawable/shoes4"
+  },
+  {
+    "name": "sword2",
+    "basepower": 4,
+    "level": 4,
+    "type": 4,
+    "image": "android.resource://comp5216.sydney.edu.au.focuson/drawable/sword2"
+  },
+
+  {
+    "name": "cloth4",
+    "basepower": 4,
+    "level": 4,
+    "type": 1,
+    "image": "android.resource://comp5216.sydney.edu.au.focuson/drawable/cloth4"
+  }
+]

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/timer_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image"
+
+        android:background="@drawable/background" />
+
+    <RelativeLayout
+        android:id="@+id/time_display"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/time"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/hours_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/colon1"
+
+            android:gravity="center"
+            android:text="@string/starttime"
+            android:textColor="@color/WhiteSmoke"
+            android:padding="3dp"
+            android:textSize="80sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/colon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginRight="3.0dip"
+            android:layout_toStartOf="@+id/minutes_tv"
+            android:text="@string/colon"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/minutes_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/colon2"
+
+            android:gravity="center"
+            android:text="@string/starttime"
+            android:textColor="@color/WhiteSmoke"
+            android:padding="3dp"
+            android:textSize="80sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/colon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3.0dip"
+            android:layout_marginRight="3.0dip"
+            android:layout_toStartOf="@+id/seconds_tv"
+            android:text="@string/colon"
+            android:textColor="@color/WhiteSmoke"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/seconds_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+
+            android:gravity="center"
+            android:text="@string/starttime"
+            android:textColor="@color/WhiteSmoke"
+            android:padding="3dp"
+            android:textSize="80sp"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/time"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+
+        android:background="@drawable/btn_stop_background"
+        android:text="@string/set_time"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        android:layout_above="@+id/exit"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+
+        android:onClick="Time"
+        />
+    <Button
+        android:id="@+id/start"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/btn_stop_background"
+        android:text="@string/start"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        android:layout_toEndOf="@+id/time"
+        android:layout_alignBottom="@+id/time"
+        android:layout_marginEnd="10dp"/>
+
+    <Button
+        android:id="@+id/exit"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:background="@drawable/btn_stop_background"
+        android:text="@string/cancel"
+        android:textColor="@color/WhiteSmoke"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+
+
+        android:onClick="back"/>
+</RelativeLayout>

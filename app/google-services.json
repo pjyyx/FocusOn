@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "482392150599",
+    "firebase_url": "https://focusonapp-5f88f.firebaseio.com",
+    "project_id": "focusonapp-5f88f",
+    "storage_bucket": "focusonapp-5f88f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482392150599:android:d400cc6602f0a0cc859762",
+        "android_client_info": {
+          "package_name": "comp5216.sydney.edu.au.focuson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482392150599-ki42cplsp22lon02hoacp36i1g2cp4g0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "comp5216.sydney.edu.au.focuson",
+            "certificate_hash": "93857073a10bb9f13aa5978534cf5c0f5da5dd1e"
+          }
+        },
+        {
+          "client_id": "482392150599-oiued4nlr9criiqit14go5bcd9q8obts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaIewE7s1WEdqvYgTt5D5KHHTXKlDLE8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482392150599-oiued4nlr9criiqit14go5bcd9q8obts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

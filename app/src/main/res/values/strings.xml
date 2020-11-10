@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">FocusOn</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="profile_header">Profile</string>
+    <string name="behaviour_header">Behaviour</string>
+    <string name="appearance_header">Appearance</string>
+
+    <!-- Profile Preferences -->
+    <string name="name_title">Name</string>
+    <string name="changeAvatar">Change Avatar</string>
+    <string name="logout">Log out</string>
+
+    <!-- Behavior Preferences -->
+    <string name="deep_title">Deep focus mode</string>
+    <string name="deep_summary_on">Interruptions will cause losing all points</string>
+    <string name="deep_summary_off">Interruptions will cause penalties</string>
+
+    <!-- Appearance Preferences -->
+    <string name="dark_title">Dark mode</string>
+    <string name="language_title">Language</string>
+
+    <!-- activity -->
+    <string name="focus_on">Focus On</string>
+    <string name="stop">stop</string>
+    <string name="image">IMAGE</string>
+    <string name="default_time">00:00</string>
+    <string name="ranking">RANKING</string>
+    <string name="achievement">ACHIEVEMENT</string>
+    <string name="monitoring">MONITORING</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="hint_timer">Focus Time Amount</string>
+    <string name="main">MAIN</string>
+    <string name="test_user">TEST_USER</string>
+    <string name="score">SCORE</string>
+    <string name="ranking_title">Ranking List</string>
+    <string name="your_score">Your Score:</string>
+    <string name="default_score">0</string>
+    <string name="missions">MISSIONS</string>
+    <string name="add">ADD</string>
+    <string name="settings">SETTINGS</string>
+    <string name="enter_the_username">Enter the username</string>
+    <string name="search">SEARCH</string>
+    <string name="avatar">avatar</string>
+    <string name="starttime">00</string>
+    <string name="colon">:</string>
+    <string name="set_time">set time</string>
+    <string name="record_history">HISTORY RECORD</string>
+    <string name="home">HOME</string>
+    <string name="record">00:30:00</string>
+    <string name="pause_times">100 Times</string>
+    <string name="collections">Collections</string>
+    <string name="datetime">2020–01–01 00:00:00</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_app_id" translatable="false">269532094496549</string>
+    <string name="facebook_application_id" translatable="false">269532094496549</string>
+    <string name="facebook_login_protocol_scheme"
+        translatable="false">269532094496549</string>
+
+    <!-- Google application ID -->
+    <string name="server_client_id" translatable="false">482392150599-oiued4nlr9criiqit14go5bcd9q8obts.apps.googleusercontent.com</string>
+
+
+
+</resources>

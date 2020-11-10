@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="comp5216.sydney.edu.au.focuson">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RankingActivity"
+            android:label="RankingActivity" >
+
+        </activity>
+        <activity
+            android:name=".TimerActivity"
+            android:label="TimerActivity" >
+
+        </activity>
+        <activity
+            android:name=".UserEquipmentActivity"
+            android:label="UserEquipmentActivity" >
+
+        </activity>
+        <activity
+            android:name=".SyntheticEquipmentActivity"
+            android:label="SyntheticEquipmentActivity" >
+
+        </activity>
+        <activity
+            android:name=".AchievementActivity"
+            android:label="AchievementActivity" >
+
+        </activity>
+        <activity
+            android:name=".MonitorActivity"
+            android:label="MonitorActivity" >
+
+        </activity>
+        <activity
+            android:name=".MonitoringActivity"
+            android:label="MonitoringActivity" >
+
+        </activity>
+        <activity
+            android:name=".RecordActivity"
+            android:label="RecordActivity" >
+
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="comp5216.sydney.edu.au.focuson.fileProvider"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+
+</manifest>

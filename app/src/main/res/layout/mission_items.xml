@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="200dp"
+    android:layout_height="60dp"
+    android:gravity="start">
+        <TextView
+            android:id="@+id/name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:text="@string/missions"
+            android:textColor="@color/LightGray"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="end">
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/LightGray"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:textStyle="bold"
+            android:text="Result" />
+        <TextView
+            android:id="@+id/divide_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/LightGray"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:textStyle="bold"
+            android:text="/" />
+        <TextView
+            android:id="@+id/target_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/LightGray"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="6dp"
+            android:textStyle="bold"
+            android:text="Target" />
+    </LinearLayout>
+
+</RelativeLayout>

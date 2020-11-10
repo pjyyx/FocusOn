@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:baselineAligned="false"
+    >
+
+    <LinearLayout
+        android:id="@+id/achievement"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:onClick="onAchieveClick"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/achievement_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:background="@drawable/achievement_color"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/achievement"/>
+        <TextView
+            android:id="@+id/achievement_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/WhiteSmoke"
+            android:text="@string/achievement" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ranking"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:onClick="onRankClick"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/ranking_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:background="@drawable/ranking"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/ranking"/>
+
+        <TextView
+            android:id="@+id/ranking_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/WhiteSmoke"
+            android:text="@string/ranking" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:onClick="onHomeClick"
+        android:background="@drawable/btn_safe_oval_background"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:layout_marginTop="5dp"
+            android:id="@+id/home_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:background="@drawable/main"
+            android:adjustViewBounds="true"
+            android:gravity="center"
+            android:contentDescription="@string/ranking"/>
+
+        <TextView
+            android:id="@+id/home_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/DimGray"
+            android:text="@string/home" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/monitoring"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onMonitorClick"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/monitoring_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:background="@drawable/monitoring_color"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/monitoring"/>
+
+        <TextView
+            android:id="@+id/monitoring_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/WhiteSmoke"
+            android:text="@string/monitoring" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="onSettingClick"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/setting_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:background="@drawable/setting"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/settings"/>
+
+        <TextView
+            android:id="@+id/setting_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/WhiteSmoke"
+            android:text="@string/settings" />
+    </LinearLayout>
+
+</LinearLayout>

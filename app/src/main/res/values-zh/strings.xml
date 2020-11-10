@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">FocusOn</string>
+    <string name="title_activity_settings">设置</string>
+
+    <!-- Preference Titles -->
+    <string name="profile_header">用户</string>
+    <string name="behaviour_header">行为</string>
+    <string name="appearance_header">外观</string>
+
+    <!-- Profile Preferences -->
+    <string name="name_title">用户名</string>
+
+    <!-- Behavior Preferences -->
+    <string name="deep_title">深度专注模式</string>
+    <string name="deep_summary_on">不够专注会导致所有分数丢失</string>
+    <string name="deep_summary_off">不够专注会导致一些惩罚</string>
+
+    <!-- Appearance Preferences -->
+    <string name="dark_title">夜间模式</string>
+    <string name="language_title">语言</string>
+
+    <!-- activity -->
+    <string name="focus_on">开始专注</string>
+    <string name="stop">停止</string>
+    <string name="image">IMAGE</string>
+    <string name="default_time">00:00</string>
+    <string name="ranking">排名</string>
+    <string name="achievement">成就</string>
+    <string name="monitoring">监督</string>
+    <string name="start">开始</string>
+    <string name="cancel">取消</string>
+    <string name="hint_timer">专注时间</string>
+    <string name="main">MAIN</string>
+    <string name="test_user">TEST_USER</string>
+    <string name="score">分数</string>
+    <string name="ranking_title">Ranking List</string>
+    <string name="your_score">你的分数：</string>
+    <string name="default_score">0</string>
+    <string name="missions">目标</string>
+    <string name="add">添加</string>
+    <string name="settings">设置</string>
+    <string name="enter_the_username">输入用户名</string>
+    <string name="search">搜索</string>
+    <string name="avatar">avatar</string>
+    <string name="starttime">00</string>
+    <string name="colon">:</string>
+    <string name="set_time">set time</string>
+    <string name="record_history">历史记录</string>
+    <string name="home">主页</string>
+    <string name="record">00:30:00</string>
+    <string name="pause_times">100次</string>
+    <string name="collections">收藏</string>
+    <string name="datetime">2020–01-01 00:00:00</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_app_id">269532094496549</string>
+    <string name="facebook_application_id" translatable="false">269532094496549</string>
+    <string name="facebook_login_protocol_scheme"
+        translatable="false">269532094496549</string>
+
+    <!-- Google application ID -->
+    <string name="server_client_id">482392150599-oiued4nlr9criiqit14go5bcd9q8obts.apps.googleusercontent.com</string>
+    <string name="changeAvatar">更换头像</string>
+    <string name="logout">退出账号</string>
+
+
+</resources>

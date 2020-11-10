@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+// Add to the bottom of the file for google services
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "comp5216.sydney.edu.au.focuson"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+configurations {
+    cleanedAnnotations
+    compile.exclude group: 'org.jetbrains' , module:'annotations'
+}
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
+    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'com.google.firebase:firebase-auth:20.0.0'
+    implementation 'org.jetbrains:annotations-java5:15.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.1'
+    implementation 'androidx.navigation:navigation-ui:2.3.1'
+
+    implementation 'com.google.firebase:firebase-firestore:21.7.1'
+    implementation 'com.google.firebase:firebase-storage:19.2.0'
+    implementation platform('com.google.firebase:firebase-bom:25.12.0')
+
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:26.0.0')
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics'
+
+    // FirebaseUI (for authentication)
+    implementation 'com.firebaseui:firebase-ui-auth:6.2.0'
+    // Facebook sdk
+    implementation 'com.facebook.android:facebook-android-sdk:5.0.0'
+
+    // Glide v4
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+
+    implementation 'org.apache.httpcomponents:httpcore:4.4.4'
+    implementation 'com.blankj:utilcodex:1.29.0'
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.30'
+
+    implementation 'com.alibaba:fastjson:1.1.70.android'
+}
